@@ -1,0 +1,13 @@
+[project]
+name = "orangellm"
+version = "0.1.0"
+description = "A large language model project for personal practice."
+readme = "README.md"
+license = { file = "LICENSE" }
+dependencies = [
+    "PyYAML",
+    "torch",
+]
+
+[tool.setuptools.packages.find]
+where = ["."]

@@ -1,0 +1,6 @@
+# config.yaml
+# 
+# 全局实现版本控制, 可选值:
+# "basic_by_handcode" 只使用pytorch中的基本数学运算进行模型的构建
+
+implement_version: "basic_by_handcode1"
